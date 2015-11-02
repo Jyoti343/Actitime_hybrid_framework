@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.actitime.report_test.Report_screenshot">
+        <methods>
+          <include name="logInToApp"/>
+          <include name="configBeforeClass"/>
+          <include name="takeAScreenshot"/>
+        </methods>
+      </class> <!-- com.actitime.report_test.Report_screenshot -->
+      <class name="com.actitime.project_and_customer_test.MyAccount_modification">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="MyAccount"/>
+          <include name="logInToApp"/>
+        </methods>
+      </class> <!-- com.actitime.project_and_customer_test.MyAccount_modification -->
+      <class name="com.actitime.project_and_customer_test.User_alter_test">
+        <methods>
+          <include name="create_user"/>
+          <include name="configBeforeClass"/>
+          <include name="loginToApp"/>
+        </methods>
+      </class> <!-- com.actitime.project_and_customer_test.User_alter_test -->
+      <class name="com.actitime.project_and_customer_test.Generate_report">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="reportSheet"/>
+          <include name="logIn"/>
+        </methods>
+      </class> <!-- com.actitime.project_and_customer_test.Generate_report -->
+      <class name="com.actitime.project_and_customer_test.ProjectAndCustomerTest">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="loginToApp"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.actitime.project_and_customer_test.ProjectAndCustomerTest -->
+      <class name="com.actitime.project_and_customer_test.Customer_explore">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="logInToApp"/>
+          <include name="verifyCustomer"/>
+        </methods>
+      </class> <!-- com.actitime.project_and_customer_test.Customer_explore -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

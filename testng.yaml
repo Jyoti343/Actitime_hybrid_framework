@@ -1,0 +1,13 @@
+name: tkial 
+parallel: none
+tests:
+  - name: Testjr
+    parallel: none
+    classes:
+      - com.actitime.project_and_customer_test.Generate_report
+      - com.actitime.project_and_customer_test.Customer_explore
+      - com.actitime.project_and_customer_test.User_alter_test
+      - com.actitime.project_and_customer_test.ProjectAndCustomerTest
+      - com.actitime.project_and_customer_test.MyAccount_modification
+      - com.actitime.report_test.Report_screenshot
+

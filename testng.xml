@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="tkial "   parallel="none">
+  <test name="Testjr">
+    <classes>
+      <class name="com.actitime.project_and_customer_test.Generate_report"/>
+      <class name="com.actitime.project_and_customer_test.Customer_explore"/>
+      <class name="com.actitime.project_and_customer_test.User_alter_test"/>
+      <class name="com.actitime.project_and_customer_test.ProjectAndCustomerTest"/>
+      <class name="com.actitime.project_and_customer_test.MyAccount_modification"/>
+      <class name="com.actitime.report_test.Report_screenshot"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

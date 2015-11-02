@@ -1,0 +1,8 @@
+name: jotu
+parallel: none
+tests:
+  - name: Test
+    parallel: none
+    classes:
+      - com.actitime.project_and_customer_test.MyAccount_modification
+
